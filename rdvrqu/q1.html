@@ -125,12 +125,12 @@
   		</header>
     <a-scene>
      <!-- <a-assets> -->
-          <img id="city" crossorigin="anonymous" src="http://54.252.207.200/rdvrquiz/images/quiz2.png">
-        <img id="city-thumb" crossorigin="anonymous" src="http://54.252.207.200/rdvrquiz/images/CarA1.jpg" >
-        <img id="sechelt-thumb" crossorigin="anonymous" src="http://54.252.207.200/rdvrquiz/images/CarB1.jpg" >
+          <img id="city" crossorigin="anonymous" src="http://ec2-54-252-207-200.ap-southeast-2.compute.amazonaws.com/images/quiz2.png">
+        <img id="city-thumb" crossorigin="anonymous" src="http://ec2-54-252-207-200.ap-southeast-2.compute.amazonaws.com/images/CarA1.jpg" >
+        <img id="sechelt-thumb" crossorigin="anonymous" src="http://ec2-54-252-207-200.ap-southeast-2.compute.amazonaws.com/images/CarB1.jpg" >
         <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
-        <img id="sechelt" crossorigin="anonymous" src="http://54.252.207.200/rdvrquiz/images/q7.png">
-        <img id="cursor-img" crossorigin="anonymous" src="http://54.252.207.200/rdvrquiz/images/wheel.png">
+        <img id="sechelt" crossorigin="anonymous" src="http://ec2-54-252-207-200.ap-southeast-2.compute.amazonaws.com/images/q7.png">
+        <img id="cursor-img" crossorigin="anonymous" src="http://ec2-54-252-207-200.ap-southeast-2.compute.amazonaws.com/images/wheel.png">
 
 
         <!-- Image link template to be reused. -->
@@ -152,7 +152,7 @@
       <!-- Image links. -->
    <a-entity >
         <a-entity id="links" template="src: #link" data-src="#city" data-thumb="#city-thumb"  scale="1.5 1.5 1.5" position="2.8 -3 -4.3" onclick="alertFun()"></a-entity>
-        <a-entity id="links" template="src: #link" data-src="#sechelt"  scale="0.8 0.8 0.8" data-thumb="#sechelt-thumb" position="-5.8 -1.5 -5.1" rotation="0 85 0" navigate-on-click="url: http://54.252.207.200/rdvrquiz/q2.html" ></a-entity>
+        <a-entity id="links" template="src: #link" data-src="#sechelt"  scale="0.8 0.8 0.8" data-thumb="#sechelt-thumb" position="-5.8 -1.5 -5.1" rotation="0 85 0" navigate-on-click="url: http://ec2-54-252-207-200.ap-southeast-2.compute.amazonaws.com/q2.html" ></a-entity>
       </a-entity>
 
       <!-- Camera + cursor. -->
