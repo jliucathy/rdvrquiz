@@ -128,12 +128,12 @@
   		</header>
     <a-scene>
      <!-- <a-assets> -->
-        <img id="city" crossorigin="anonymous" src="https://drivebettervic.today/images/quiz21.png">
-        <img id="city-thumb" crossorigin="anonymous" src="https://drivebettervic.today/images/LANEA.jpg" >
-        <img id="sechelt-thumb" crossorigin="anonymous" src="https://drivebettervic.today/images/LANEB.jpg" >
+        <img id="city" crossorigin="anonymous" src="http://ec2-54-252-207-200.ap-southeast-2.compute.amazonaws.com/images/quiz21.png">
+        <img id="city-thumb" crossorigin="anonymous" src="http://ec2-54-252-207-200.ap-southeast-2.compute.amazonaws.com/images/LANEA.jpg" >
+        <img id="sechelt-thumb" crossorigin="anonymous" src="http://ec2-54-252-207-200.ap-southeast-2.compute.amazonaws.com/images/LANEB.jpg" >
         <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
-        <img id="sechelt" crossorigin="anonymous" src="https://drivebettervic.today/images/quiz3.png">
-        <img id="cursor-img" crossorigin="anonymous" src="https://drivebettervic.today/images/wheel.png">
+        <img id="sechelt" crossorigin="anonymous" src="http://ec2-54-252-207-200.ap-southeast-2.compute.amazonaws.com/images/quiz3.png">
+        <img id="cursor-img" crossorigin="anonymous" src="http://ec2-54-252-207-200.ap-southeast-2.compute.amazonaws.com/images/wheel.png">
 
         <!-- Image link template to be reused. -->
         <script id="link" type="text/html">
@@ -154,7 +154,7 @@
 
       <!-- Image links. -->
       <a-entity >
-              <a-image src="https://drivebettervic.today/images/cartop.png"  position="-0.5 -2 -2"  scale="1 1 1" rotation="90 280 0" ></a-image>
+              <a-image src="http://ec2-54-252-207-200.ap-southeast-2.compute.amazonaws.com/images/cartop.png"  position="-0.5 -2 -2"  scale="1 1 1" rotation="90 280 0" ></a-image>
               <a-entity id="links" template="src: #link" data-src="#sechelt" data-thumb="#city-thumb"  scale="0.5 0.5 0.5" position="-3 -0.8 -3.8" rotation="0 100 0" onclick="alertFun()"></a-entity>
               <a-entity id="links" template="src: #link" data-src="#city"  scale="0.7 0.7 0.7" data-thumb="#sechelt-thumb" position="-3.5 -1.8 -4" rotation="0 100 0" onclick="congra()" ></a-entity>
             </a-entity>
